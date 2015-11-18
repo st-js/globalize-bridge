@@ -14,8 +14,8 @@
     </parent>
 
     <properties>
-        <stjs.version>3.2.2</stjs.version>
-		<cldr-bridge.version>0.4.3.bv1-SNAPSHOT</cldr-bridge.version>
+        <stjs.version>3.3.0</stjs.version>
+		<cldr-bridge.version>0.4.3.bv1</cldr-bridge.version>
     </properties>
 
     <dependencies>
