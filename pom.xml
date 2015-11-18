@@ -47,8 +47,8 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:https://github.com/onigoetz/react-bridge.git</connection>
-        <developerConnection>scm:git:https://github.com/onigoetz/react-bridge.git</developerConnection>
-        <url>scm:git:https://github.com/onigoetz/react-bridge</url>
+        <connection>scm:git:https://github.com/st-js/globalize-bridge.git</connection>
+        <developerConnection>scm:git:https://github.com/st-js/globalize-bridge.git</developerConnection>
+        <url>scm:git:https://github.com/st-js/globalize-bridge</url>
     </scm>
 </project>
