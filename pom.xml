@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>globalize</artifactId>
-    <version>0.13.3.bv2-SNAPSHOT</version>
+    <version>1.0.0.bv1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Strongly-typed JS - Globalize Bridge Library</name>
 
@@ -15,6 +15,7 @@
 
     <properties>
         <stjs.version>3.2.2</stjs.version>
+		<cldr-bridge.version>0.4.3.bv1-SNAPSHOT</cldr-bridge.version>
     </properties>
 
     <dependencies>
@@ -23,18 +24,26 @@
             <artifactId>shared</artifactId>
             <version>${stjs.version}</version>
         </dependency>
+		
+		<dependency>
+			<groupId>org.st-js.bridge</groupId>
+		    <artifactId>cldr</artifactId>
+		    <version>${cldr-bridge.version}</version>
+		</dependency>
 
-        <dependency>
-            <groupId>org.st-js.bridge</groupId>
-            <artifactId>html</artifactId>
-            <version>5.0.bv3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>react</artifactId>
-            <version>0.13.3</version>
-        </dependency>
+		<dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>globalize</artifactId>
+		    <version>1.0.0</version>
+			
+			<!-- Exclude CLDRJS provided by this webjar as it is incorrect -->
+			<exclusions>
+				<exclusion>
+					<groupId>org.webjars</groupId>
+					<artifactId>cldrjs</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
     </dependencies>
 
     <scm>
