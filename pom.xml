@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>globalize</artifactId>
-    <version>1.0.0.bv1-SNAPSHOT</version>
+    <version>1.0.0.bv1</version>
     <packaging>jar</packaging>
     <name>Strongly-typed JS - Globalize Bridge Library</name>
 
@@ -50,5 +50,6 @@
         <connection>scm:git:https://github.com/st-js/globalize-bridge.git</connection>
         <developerConnection>scm:git:https://github.com/st-js/globalize-bridge.git</developerConnection>
         <url>scm:git:https://github.com/st-js/globalize-bridge</url>
-    </scm>
+      <tag>globalize-1.0.0.bv1</tag>
+  </scm>
 </project>
