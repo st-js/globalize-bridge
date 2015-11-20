@@ -1,5 +1,8 @@
 package org.stjs.bridge.globalize;
 
+import org.stjs.javascript.annotation.SyntheticType;
+
+@SyntheticType
 public class NumberFormatterOptions {
 	public Integer minimumIntegerDigits;
 	public Integer minimumFractionDigits;

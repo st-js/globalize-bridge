@@ -1,8 +1,8 @@
 package org.stjs.bridge.globalize;
 
-/**
- * Created by onigoetz on 23/10/15.
- */
+import org.stjs.javascript.annotation.SyntheticType;
+
+@SyntheticType
 public class RelativeTimeFormatterOptions {
 	public String form; //short, narrow (or falsy for default longer form)
 }

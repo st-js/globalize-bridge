@@ -1,8 +1,8 @@
 package org.stjs.bridge.globalize;
 
-/**
- * Created by onigoetz on 23/10/15.
- */
+import org.stjs.javascript.annotation.SyntheticType;
+
+@SyntheticType
 public class DateOptions {
 	public String skeleton;
 	public String date; //full, long, medium, short
